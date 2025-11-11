@@ -74,7 +74,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
               onPressed: loading ? null : register,
               child: loading
                   ? const CircularProgressIndicator(color: Colors.black)
-                  : const Text("Register"),
+                  : const Text("Sign In"),
             ),
           ],
         ),
