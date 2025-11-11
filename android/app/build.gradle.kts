@@ -44,3 +44,10 @@ android {
 flutter {
     source = "../.."
 }
+
+dependencies {
+    implementation platform('com.google.firebase:firebase-bom:33.5.1')
+    implementation 'com.google.firebase:firebase-auth'
+    implementation 'com.google.firebase:firebase-firestore'
+    implementation 'com.google.firebase:firebase-storage'
+}
